@@ -1,0 +1,965 @@
+CRITICAL - 2021-03-12 00:27:30 --> syntax error, unexpected '%'
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEvent')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEvent')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 00:29:44 --> Undefined variable: settingBuka
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(552): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 552, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEvent()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 00:33:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEvent()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 00:34:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEvent()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 11:42:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(553): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 553, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEvent()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 11:42:55 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(553): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 553, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEvent()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 11:42:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(553): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 553, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEvent()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 11:43:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(553): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 553, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEvent()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 11:43:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(553): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 553, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEvent()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 11:45:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(553): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 553, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEvent()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 11:45:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(553): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 553, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEvent()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 12:01:15 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEvent')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEvent')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 12:20:34 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEvent')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEvent')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 12:21:53 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEvent')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEvent')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 12:24:08 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEvent')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEvent')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 12:40:36 --> syntax error, unexpected ''setTutup'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEvent')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEvent')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 13:37:10 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEvent')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEvent')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 13:38:22 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEvent')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEvent')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:09:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 482, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:10:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 482, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:11:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`:dokter_id` = =:
+AND `dokter_id` = '1'
+ LIMIT 1' at line 3
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Models\SettingModel.php(25): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(481): App\Models\SettingModel->getSettingDokter('1')
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-03-12 15:11:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '1'
+AND `dokter_id` = '1'
+ LIMIT 1' at line 3
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Models\SettingModel.php(25): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(481): App\Models\SettingModel->getSettingDokter('1')
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-03-12 15:12:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 482, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:13:00 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn('dokter_id', '1', false, 'AND ', NULL)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->whereIn('dokter_id', '1')
+#2 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(469): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-12 15:13:58 --> whereNotIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(891): CodeIgniter\Database\BaseBuilder->_whereIn('dokter_id', '1', true, 'AND ', NULL)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->whereNotIn('dokter_id', '1')
+#2 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(469): CodeIgniter\Model->__call('whereNotIn', Array)
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-12 15:19:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 482, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:22:14 --> Call to undefined method App\Models\SettingModel::count
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(469): CodeIgniter\Model->__call('count', Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:22:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 482, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:26:21 --> Object of class App\Models\SettingModel could not be converted to int
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 470, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:27:00 --> Call to undefined method App\Models\SettingModel::getDataDokter
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(469): CodeIgniter\Model->__call('getDataDokter', Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:27:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(482): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 482, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->modalSetting()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:32:14 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEventB...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEventB...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:32:14 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEventT...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEventT...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:45:51 --> Undefined variable: settingTutup
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(335): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 335, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->settingEdit()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:45:51 --> Undefined variable: settingTutup
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(335): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 335, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->settingEdit()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:49:36 --> syntax error, unexpected '$setting' (T_VARIABLE)
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEventB...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEventB...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 15:49:36 --> syntax error, unexpected '$setting' (T_VARIABLE)
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEventT...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEventT...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 16:44:21 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEventB...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEventB...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 16:44:21 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEventT...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEventT...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 16:44:59 --> Undefined index: dokter_id
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 16:45:03 --> Undefined index: dokter_id
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 16:50:54 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Models\DokterModel.php(24): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(557): App\Models\DokterModel->getDataDokter(Array)
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-03-12 16:50:56 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Models\DokterModel.php(24): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(557): App\Models\DokterModel->getDataDokter(Array)
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-03-12 16:51:34 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Models\DokterModel.php(24): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(557): App\Models\DokterModel->getDataDokter(Array)
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-03-12 16:51:35 --> Illegal parameter data types int and row for operation '='
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Models\DokterModel.php(24): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(557): App\Models\DokterModel->getDataDokter(Array)
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-03-12 16:52:20 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 16:52:22 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 16:52:31 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 16:52:34 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 16:52:34 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 16:54:19 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:01:33 --> Undefined index: set_tutup
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:01:34 --> Undefined index: set_tutup
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:02:07 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:02:15 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:02:17 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:02:50 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:02:50 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:04:43 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:04:45 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:04:48 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:04:50 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:04:51 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:04:53 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:04:55 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:07:12 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:07:44 --> Undefined offset: 3
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(555): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 555, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:30:35 --> Undefined variable: settingTutup
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(335): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 335, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->settingEdit()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:34:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(567): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 567, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:34:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(567): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 567, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:34:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(567): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 567, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:34:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(567): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 567, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:34:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(567): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 567, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 17:49:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = '17:49:21'
+ LIMIT 1' at line 3
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(554): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-03-12 17:49:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = '17:49:21'
+ LIMIT 1' at line 3
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(554): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->cekEventBuka()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-03-12 18:31:59 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEventB...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEventB...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 18:31:59 --> syntax error, unexpected 'if' (T_IF), expecting ')'
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('admin/cekEventT...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('admin/cekEventT...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 18:34:47 --> Undefined index: id_setting
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(372): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 372, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->hapusDokter()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 18:51:33 --> Undefined index: kd_antrian
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\viewDokterAntrian.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/viewDokte...', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(98): view('admin/viewDokte...', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->viewAntrian()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-12 21:02:49 --> Undefined variable: data
+#0 C:\xampp\htdocs\taprojek\app\Views\halaman\home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('halaman/home', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(43): view('halaman/home', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-12 21:42:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::find()
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(27): App\Models\AntrianModel->getAllAntrian('2')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 21:42:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(27): App\Models\AntrianModel->getAllAntrian('2')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 21:42:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(27): App\Models\AntrianModel->getAllAntrian('2')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 21:44:04 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('halaman/home', Array, true)
+#2 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(44): view('halaman/home', Array)
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-12 21:46:01 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('halaman/home', Array, true)
+#2 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(43): view('halaman/home', Array)
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-03-12 21:47:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 21:48:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 21:48:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 21:48:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 21:48:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 21:49:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-12 21:49:31 --> Column 'pasien_id' in where clause is ambiguous
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-03-12 21:50:36 --> Call to undefined method App\Models\AntrianModel::result
+#0 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(50): CodeIgniter\Model->__call('result', Array)
+#1 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-12 21:50:43 --> Call to undefined method App\Models\AntrianModel::result
+#0 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(50): CodeIgniter\Model->__call('result', Array)
+#1 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-12 21:50:46 --> Call to undefined method App\Models\AntrianModel::result
+#0 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(50): CodeIgniter\Model->__call('result', Array)
+#1 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-12 21:51:09 --> Call to undefined method App\Models\AntrianModel::result
+#0 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(50): CodeIgniter\Model->__call('result', Array)
+#1 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-03-12 21:55:52 --> Undefined index: no_antrian
+#0 C:\xampp\htdocs\taprojek\app\Views\halaman\home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('halaman/home', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(44): view('halaman/home', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-12 21:55:58 --> Undefined index: no_antrian
+#0 C:\xampp\htdocs\taprojek\app\Views\halaman\home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('halaman/home', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(44): view('halaman/home', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-12 22:03:43 --> Column 'pasien_id' in where clause is ambiguous
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-03-12 22:03:46 --> Column 'pasien_id' in where clause is ambiguous
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-03-12 22:03:46 --> Column 'pasien_id' in where clause is ambiguous
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-03-12 22:03:47 --> Column 'pasien_id' in where clause is ambiguous
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-03-12 22:03:49 --> Column 'pasien_id' in where clause is ambiguous
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-03-12 22:04:15 --> Column 'pasien_id' in where clause is ambiguous
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\taprojek\app\Models\AntrianModel.php(48): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(25): App\Models\AntrianModel->getAllAntrian('2')
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-03-12 22:17:54 --> Undefined index: no_antrian
+#0 C:\xampp\htdocs\taprojek\app\Views\halaman\home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('halaman/home', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(44): view('halaman/home', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-03-12 23:09:18 --> Undefined index: status
+#0 C:\xampp\htdocs\taprojek\app\Views\halaman\home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('halaman/home', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(53): view('halaman/home', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

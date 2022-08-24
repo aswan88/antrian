@@ -1,0 +1,72 @@
+CRITICAL - 2021-03-13 01:05:28 --> Undefined variable: settingTutup
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 298, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->settingEdit()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 09:29:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->nextAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 09:29:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->nextAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 09:32:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 217, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->nextAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 09:37:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 234, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->nextAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 09:43:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(226): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 226, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->nextAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 09:44:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(226): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 226, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->nextAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 09:45:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(226): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 226, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->nextAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-13 09:45:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 227, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->nextAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

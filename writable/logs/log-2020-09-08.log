@@ -1,0 +1,51 @@
+CRITICAL - 2020-09-08 22:51:27 --> Invalid file: adm_template/template.php
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adm_template/te...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('adm_template/te...', Array, true)
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/index', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(34): view('admin/index', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->index()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-08 23:38:18 --> Call to a member function first() on null
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->pasien_detail('4294967295')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-08 23:54:06 --> Undefined index: nip
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\pasien_detail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/pasien_de...', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(91): view('admin/pasien_de...', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->pasien_detail('4294967295')
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-08 23:54:27 --> Undefined index: nik
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\pasien_detail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/pasien_de...', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(91): view('admin/pasien_de...', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->pasien_detail('4294967295')
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-08 23:59:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\pasien_detail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/pasien_de...', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(91): view('admin/pasien_de...', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->pasien_detail('...')
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

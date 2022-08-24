@@ -1,0 +1,1143 @@
+CRITICAL - 2021-04-22 01:38:12 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\taprojek\app\Models\DokterModel.php(22): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\taprojek\app\Controllers\Home.php(65): App\Models\DokterModel->getDataDokter()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-22 01:38:54 --> Undefined property: App\Controllers\Admin::$AdminModel
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->login()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-22 01:39:29 --> Invalid file: adminView/login.php
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminView/login...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('adminView/login', Array, true)
+#2 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(64): view('adminView/login', Array)
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->login()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-22 01:39:54 --> include(template/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\login.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(templat...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\taprojek\app\Views\admin\login.php(1): include()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#4 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(64): view('admin/login', Array)
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->login()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-22 01:40:29 --> include(template/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\login.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(templat...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\taprojek\app\Views\admin\login.php(1): include()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#4 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(64): view('admin/login', Array)
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->login()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-22 01:40:32 --> include(template/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\login.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(templat...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\taprojek\app\Views\admin\login.php(1): include()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#4 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(64): view('admin/login', Array)
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->login()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-04-22 01:42:30 --> Undefined variable: title
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/login', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(64): view('admin/login', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->login()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-04-22 01:45:52 --> Undefined property: App\Controllers\Admin::$AdminModel
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->loginProses()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-22 03:09:07 --> Invalid file: admin/admin.php
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/admin.php')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/admin', Array, true)
+#2 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(211): view('admin/admin', Array)
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->viewAdmin()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-04-22 03:10:03 --> Undefined variable: dataAdmin
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\viewAdmin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/viewAdmin', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(211): view('admin/viewAdmin', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->viewAdmin()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-04-22 03:11:12 --> Undefined variable: dataAdmin
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\viewAdmin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/viewAdmin', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(145): view('admin/viewAdmin', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->viewAdmin()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-04-22 03:12:10 --> Column 'username' cannot be null
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(163): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->saveAdmin()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-04-22 03:13:45 --> Column 'username' cannot be null
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ad...')
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...', Array, false)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(163): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->saveAdmin()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-04-22 03:14:03 --> Undefined index: id_admin
+#0 C:\xampp\htdocs\taprojek\app\Views\admin\viewAdmin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('admin/viewAdmin', Array, true)
+#3 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(145): view('admin/viewAdmin', Array)
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->viewAdmin()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-04-22 03:21:11 --> Undefined index: setting_id
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 180, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->hapusAdmin()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-22 03:22:49 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(185): CodeIgniter\Model->delete(NULL)
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->hapusAdmin()
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-22 03:23:33 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(185): CodeIgniter\Model->delete(NULL)
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->hapusAdmin()
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-22 03:23:40 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(185): CodeIgniter\Model->delete(NULL)
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->hapusAdmin()
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-22 03:24:24 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(185): CodeIgniter\Model->delete(NULL)
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->hapusAdmin()
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-22 03:28:35 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(678): CodeIgniter\Model->delete(NULL)
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->hapusPasien()
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-22 03:31:08 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:08 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:23 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:23 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:24 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:24 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:25 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:26 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:26 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:26 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:27 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:27 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:28 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:28 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:29 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:29 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:30 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:30 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:31 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:31 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:32 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:32 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:33 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:33 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:34 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:34 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:35 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:35 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:36 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:37 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:37 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:37 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:38 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:38 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:39 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:39 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:40 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:41 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:41 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:41 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:42 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:42 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:43 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:43 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:44 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:44 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:45 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:45 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:46 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:46 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:47 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:47 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:48 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:48 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:49 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:49 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:50 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:50 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:51 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:51 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:52 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:52 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:53 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:53 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:54 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:54 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:55 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:55 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:56 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:56 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:57 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:57 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:58 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:59 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:59 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:31:59 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:00 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:00 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:01 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:01 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:02 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:02 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:03 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:03 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:04 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:04 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:05 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:05 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:06 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:06 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:07 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:07 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:08 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:08 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:09 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:09 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:10 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:10 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:11 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:11 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:12 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:12 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:13 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:13 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:14 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:14 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:15 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:15 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:16 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:16 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:17 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:17 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:18 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:18 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:19 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:19 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:20 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:20 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:21 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:21 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:22 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:22 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:23 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:23 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:24 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:25 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:25 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:25 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:26 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 03:32:26 --> Class 'App\Controllers\PasienModel' not found
+#0 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-04-22 23:11:26 --> Undefined variable: selisih
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Test.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Test->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-22 23:19:17 --> Argument 1 passed to CodeIgniter\I18n\Time::parse() must be of the type string, null given, called in C:\xampp\htdocs\taprojek\app\Controllers\Test.php on line 50
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Test.php(50): CodeIgniter\I18n\Time::parse(NULL)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Test->index()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-04-22 23:58:51 --> Undefined offset: 0
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->getAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

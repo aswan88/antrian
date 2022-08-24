@@ -1,0 +1,32 @@
+CRITICAL - 2021-03-19 18:28:20 --> Call to undefined method App\Models\AntrianModel::getDataAntrian
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(37): CodeIgniter\Model->__call('getDataAntrian', Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->getAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-19 18:28:26 --> Call to undefined method App\Models\AntrianModel::getDataAntrian
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(37): CodeIgniter\Model->__call('getDataAntrian', Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->getAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-19 18:30:43 --> Call to undefined method App\Models\AntrianModel::getDataAntrian
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Admin.php(78): CodeIgniter\Model->__call('getDataAntrian', Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->viewAntrian('15')
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-03-19 18:43:38 --> Call to undefined method App\Models\AntrianModel::getDataAntrian
+#0 C:\xampp\htdocs\taprojek\app\Controllers\Antrian.php(37): CodeIgniter\Model->__call('getDataAntrian', Array)
+#1 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Antrian->getAntrian()
+#2 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Antrian))
+#3 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\taprojek\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\taprojek\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
